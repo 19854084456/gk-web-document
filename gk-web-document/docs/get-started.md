@@ -1,10 +1,22 @@
-# Get Started
+# 组件
 
-This is a normal page, which contains VuePress basics.
+这里提供了常用的ui组件
 
-## Pages
+## Button 按钮
 
-You can add markdown files in your vuepress directory, every markdown file will be converted to a page in your site.
+常用的操作按钮。
+
+### 基础用法
+
+<my-button type="primary">主要按钮</my-button>
+<my-button type="secondary">次要按钮</my-button>
+
+::: details 查看代码
+```vue
+<template>
+  <my-button type="primary">主要按钮</my-button>
+  <my-button type="secondary">次要按钮</my-button>
+</template>
 
 See [routing][] for more details.
 
@@ -43,4 +55,4 @@ You can [add extra style][style] with `.vuepress/styles/index.scss` file.
 [navbar]: https://vuejs.press/reference/default-theme/config.html#navbar
 [sidebar]: https://vuejs.press/reference/default-theme/config.html#sidebar
 [default-theme]: https://vuejs.press/reference/default-theme/
-[style]: https://vuejs.press/reference/default-theme/styles.html#style-file
+[style]: https://vuejs.press/reference/default-theme/styles.html#style-file -->
