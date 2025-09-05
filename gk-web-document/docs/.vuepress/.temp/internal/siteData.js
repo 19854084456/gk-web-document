@@ -1,4 +1,4 @@
-export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"zh-CN\",\"title\":\"极客前端库\",\"description\":\"极客组件库，一套为开发者、设计师和产品经理准备的基于 Vue 3.0 的桌面端组件库\",\"head\":[],\"locales\":{}}")
+export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"en-CH\",\"title\":\"网站快速成型工具\",\"description\":\"极客组件库，一套为开发者、设计师和产品经理准备的基于 Vue 3.0 的桌面端组件库\",\"head\":[],\"locales\":{}}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()
