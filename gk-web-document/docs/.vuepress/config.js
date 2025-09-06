@@ -17,6 +17,23 @@ export default defineUserConfig({
   }),
 
   bundler: webpackBundler(),
+  plugins: [
+    [
+      'demo-block',
+      {
+        // 可选配置
+        component: 'gkButton', // 渲染的组件名称
+        locales: {
+          'zh-CN': {
+            'hide-text': '隐藏代码',
+            'show-text': '显示代码',
+            'copy-button-text': '复制代码',
+            'copy-success-text': '复制成功'
+          }
+        }
+      }
+    ]
+  ]
   // 暂时注释掉插件配置
   // plugins: [
   //   registerComponentsPlugin({
